@@ -22,7 +22,6 @@ else:
                 minindex = k
         cnt2 = abs(cnt1 - read[minindex])
         cnt1 = read[minindex]
-        print(cnt1, read[minindex], ":",cnt, cnt2)
         del read[minindex]
         if count == 1:
             gcd = math.gcd(cnt, cnt2)
